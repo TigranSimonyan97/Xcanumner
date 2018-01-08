@@ -12,6 +12,7 @@
 		B33675E22001134900DBAF76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33675E02001134900DBAF76 /* Main.storyboard */; };
 		B33675E42001134900DBAF76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B33675E32001134900DBAF76 /* Assets.xcassets */; };
 		B33675E72001134900DBAF76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33675E52001134900DBAF76 /* LaunchScreen.storyboard */; };
+		B33675F02001178000DBAF76 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33675EF2001177F00DBAF76 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B33675E32001134900DBAF76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B33675E62001134900DBAF76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B33675E82001134900DBAF76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B33675EF2001177F00DBAF76 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B33675F02001178000DBAF76 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				B33675DB2001134900DBAF76 /* Xcanumner */,
 				B33675DA2001134900DBAF76 /* Products */,
+				B33675EE2001177F00DBAF76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				B33675E82001134900DBAF76 /* Info.plist */,
 			);
 			path = Xcanumner;
+			sourceTree = "<group>";
+		};
+		B33675EE2001177F00DBAF76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B33675EF2001177F00DBAF76 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,7 +223,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
